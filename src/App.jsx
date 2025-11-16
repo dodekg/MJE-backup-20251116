@@ -49,7 +49,7 @@ function App() {
         <Route path="/about" element={<About />} />
 
         <Route path="/playfruits" element={<PlayFruits />} />
-        {/* <Route path="/playfruits2" element={<PlayFruits2 />} /> */}
+        <Route path="/playfruits2" element={<PlayFruits2 />} />
         <Route path="/playmoods" element={<PlayMoods />} />
         <Route path="/playvegetables" element={<PlayVegetables />} />
         <Route path="/playtransport" element={<PlayTransport />} />
