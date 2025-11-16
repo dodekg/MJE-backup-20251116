@@ -15,7 +15,7 @@ const Home = () => {
                 for visiting this site and have fun.
             </p>
         </div>
-        <Link to='/playfruits2'>
+        <Link to='/playfruits'>
             <button className="startBtn">
                 Start
             </button>
