@@ -26,35 +26,35 @@ const PlayFruits = () =>
 
 
       const [items, setItems] = useState([
-          {id:1, text:'jabłko', icon:'🍎', stat: "", sound:'jablko.mp3' },
-          {id:1, text:'an apple', icon:'🍎', stat: "", sound:'apple.mp3' },
-          {id:1, text:'una manzana', icon:'🍎', stat: "", sound:'manzana.mp3'  },
-          {id:2, text:'pomarańcze', icon:'🍊', stat: "", sound:'pomarancze.mp3'  },
+          {id:1, text:'jabłko', icon:'🍎', stat: "", sound:'jablko.mp3', lang:'PL' },
+          {id:1, text:'an apple', icon:'🍎', stat: "", sound:'apple.mp3', lang:'EN' },
+          {id:1, text:'una manzana', icon:'🍎', stat: "", sound:'manzana.mp3', lang:'ES'  },
+          {id:2, text:'pomarańcze', icon:'🍊', stat: "", sound:'pomarancze.mp3', lang:'PL'   },
 
-          {id:2, text:'an orange', icon:'🍊', stat: "", sound:'orange.mp3'  },
-          {id:2, text:'una naranja', icon:'🍊', stat: "", sound:'naranjas.mp3'  },
-          {id:3, text:'cytryna', icon:'🍋', stat: "", sound:'cytryna.mp3'  },
-          {id:3, text:'a lemon', icon:'🍋', stat: "", sound:'lemon.mp3'  },
+          {id:2, text:'an orange', icon:'🍊', stat: "", sound:'orange.mp3', lang:'EN'   },
+          {id:2, text:'una naranja', icon:'🍊', stat: "", sound:'naranjas.mp3', lang:'ES'  },
+          {id:3, text:'cytryna', icon:'🍋', stat: "", sound:'cytryna.mp3', lang:'PL'   },
+          {id:3, text:'a lemon', icon:'🍋', stat: "", sound:'lemon.mp3', lang:'EN'   },
 
-          {id:3, text:'un limón', icon:'🍋', stat: "", sound:'limon.mp3'  },
-          {id:4, text:'truskawka', icon:'🍓', stat: "", sound:'truskawka.mp3'  },
-          {id:4, text:'a strawberry', icon:'🍓', stat: "", sound:'strawberry.mp3'  },
-          {id:4, text:'una fresa', icon:'🍓', stat: "", sound:'fresa.mp3'  },
+          {id:3, text:'un limón', icon:'🍋', stat: "", sound:'limon.mp3', lang:'ES'  },
+          {id:4, text:'truskawka', icon:'🍓', stat: "", sound:'truskawka.mp3', lang:'PL'   },
+          {id:4, text:'a strawberry', icon:'🍓', stat: "", sound:'strawberry.mp3', lang:'EN'   },
+          {id:4, text:'una fresa', icon:'🍓', stat: "", sound:'fresa.mp3', lang:'ES'  },
 
-          {id:5, text:'winogrona', icon:'🍇', stat: "", sound:'winogrona.mp3'  },
-          {id:5, text:'a grape', icon:'🍇', stat: "", sound:'grapes.mp3'  },
-          {id:5, text:'una uva', icon:'🍇', stat: "", sound:'uvas.mp3'  },
-          {id:6, text:'arbuz', icon:'🍉', stat: "", sound:'arbuz.mp3'  },
+          {id:5, text:'winogrona', icon:'🍇', stat: "", sound:'winogrona.mp3', lang:'PL'   },
+          {id:5, text:'a grape', icon:'🍇', stat: "", sound:'grapes.mp3', lang:'EN'   },
+          {id:5, text:'una uva', icon:'🍇', stat: "", sound:'uvas.mp3', lang:'ES'  },
+          {id:6, text:'arbuz', icon:'🍉', stat: "", sound:'arbuz.mp3', lang:'PL'   },
 
-          {id:6, text:'a watermelon', icon:'🍉', stat: "", sound:'watermelon.mp3'  },
-          {id:6, text:'una sandía', icon:'🍉', stat: "", sound:'sandia.mp3'  },
-          {id:7, text:'gruszka', icon:'🍐', stat: "", sound:'gruszka.mp3'  },
-          {id:7, text:'a pear', icon:'🍐', stat: "", sound:'pear.mp3'  },
+          {id:6, text:'a watermelon', icon:'🍉', stat: "", sound:'watermelon.mp3', lang:'EN'   },
+          {id:6, text:'una sandía', icon:'🍉', stat: "", sound:'sandia.mp3', lang:'ES'  },
+          {id:7, text:'gruszka', icon:'🍐', stat: "", sound:'gruszka.mp3', lang:'PL'   },
+          {id:7, text:'a pear', icon:'🍐', stat: "", sound:'pear.mp3', lang:'EN'   },
 
-          {id:7, text:'una pera', icon:'🍐', stat: "", sound:'pera.mp3'  },
-          {id:8, text:'wiśnia', icon:'🍒', stat: "", sound:'wisnia.mp3'  },
-          {id:8, text:'a cherry', icon:'🍒', stat: "", sound:'cherry.mp3'  },
-          {id:8, text:'una cereza', icon:'🍒', stat: "", sound:'cereza.mp3'  }
+          {id:7, text:'una pera', icon:'🍐', stat: "", sound:'pera.mp3', lang:'ES'  },
+          {id:8, text:'wiśnia', icon:'🍒', stat: "", sound:'wisnia.mp3', lang:'PL'   },
+          {id:8, text:'a cherry', icon:'🍒', stat: "", sound:'cherry.mp3', lang:'EN'   },
+          {id:8, text:'una cereza', icon:'🍒', stat: "", sound:'cereza.mp3', lang:'ES'  }
 
       ].sort(()=>Math.random()-0.5))
 
